@@ -1,0 +1,36 @@
+---
+title: RMRK Documentation
+description: Get started building with Modular NFTs
+template: splash
+hero:
+  tagline: Learn to take NFTs to the next level with composability, modularity, and extensibility
+  image:
+    html: <iframe src="https://www.youtube.com/embed/2Qwpllwpkdg" width="560" height="315" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  actions:
+    - text: Read Intro
+      link: /explanations/intro
+      icon: open-book
+      variant: primary
+    - text: Start Building
+      link: /tutorials/intro
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Where to go?
+
+<CardGrid stagger>
+	<Card title="New to modular NFTs?" icon="sun">
+		Start with [Tutorials](/tutorials/intro), designed to get you from A to B in an easy to understand manner. You will be given a goal to work towards, and have your hand held until finished. No prerequisite knowledge required.
+	</Card>
+	<Card title="How-to Guides" icon="puzzle">
+		Start with [How-To guides](/guides/intro) if you are past the basics and basic concepts but looking to learn how to do that _one specific thing_?
+	</Card>
+	<Card title="Reference" icon="laptop">
+		Go to [Reference](/reference/intro) if all you need is raw API documentation, technical reference, ABI, or contract function details.
+	</Card>
+	<Card title="Explanations" icon="open-book">
+		Go to [Explanations](/explanations/intro) to learn the past, present, and future of modular NFTs: where they come from, why they're important, and what alternatives exist.
+	</Card>
+</CardGrid>
